@@ -1,0 +1,9 @@
+streamlit
+scikit-learn
+nltk
+pickle-mixin
+requests
+plotly
+pandas
+textblob
+python-dateutil

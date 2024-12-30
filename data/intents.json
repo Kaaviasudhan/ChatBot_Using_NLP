@@ -1,0 +1,161 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Good morning",
+          "Good evening",
+          "Hey",
+          "Hi there",
+          "How are you?"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! How can I help you?",
+          "Good to see you! How can I be of help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "See you later",
+          "Bye",
+          "Take care",
+          "Bye bye"
+        ],
+        "responses": [
+          "Goodbye! Have a great day ahead.",
+          "See you! Feel free to reach out anytime.",
+          "Take care and have a wonderful day!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Thanks a lot",
+          "Thanks a ton"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Happy to help!",
+          "My pleasure!"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Can you help me?",
+          "I need help",
+          "Can you assist me?",
+          "I need some assistance",
+          "How can I get help?"
+        ],
+        "responses": [
+          "Sure! How can I assist you?",
+          "What do you need help with?",
+          "I'm here to help! Please tell me what you need."
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What is the weather like?",
+          "Is it raining?",
+          "What's the temperature?",
+          "Will it rain today?",
+          "How's the weather?"
+        ],
+        "responses": [
+          "I can't fetch real-time weather updates, but you can check weather apps like AccuWeather or Google Weather for more details.",
+          "Unfortunately, I cannot provide real-time weather data at the moment."
+        ]
+      },
+      {
+        "tag": "about",
+        "patterns": [
+          "Tell me about yourself",
+          "What are you?",
+          "Who are you?",
+          "What can you do?",
+          "Describe yourself"
+        ],
+        "responses": [
+          "I am a chatbot created to assist you with your queries.",
+          "I am an AI chatbot here to help you with any questions you may have."
+        ]
+      },
+      {
+        "tag": "technology",
+        "patterns": [
+          "What is AI?",
+          "Tell me about machine learning",
+          "What is neural network?",
+          "How does deep learning work?",
+          "Explain AI to me"
+        ],
+        "responses": [
+          "AI stands for Artificial Intelligence. It enables machines to mimic human intelligence and perform tasks that require human-like reasoning.",
+          "Machine Learning is a subset of AI that involves training machines to learn from data and make predictions without explicit programming."
+        ]
+      },
+      {
+        "tag": "faq",
+        "patterns": [
+          "How can I use this app?",
+          "What are the features of this app?",
+          "How do I get started?",
+          "Can you tell me about the app?"
+        ],
+        "responses": [
+          "This app allows you to chat with a bot and view your chat history. Just type your message and hit 'Send' to start.",
+          "You can chat with the bot by typing your questions and the bot will respond. You can also view your chat history from the sidebar."
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "How can I contact you?",
+          "Where can I reach support?",
+          "Can I talk to a human?",
+          "Is there a customer support number?"
+        ],
+        "responses": [
+          "You can reach customer support via email at support@edunet.com.",
+          "For support, please email us at support@edunet.com, and we’ll get back to you as soon as possible."
+        ]
+      },
+      {
+        "tag": "guilt",
+        "patterns": [
+          "I feel guilty",
+          "I am sorry",
+          "I regret doing this",
+          "I made a mistake",
+          "I feel bad"
+        ],
+        "responses": [
+          "It's okay, everyone makes mistakes! What matters is learning from them.",
+          "Don’t worry, you’re doing great! Mistakes are part of growth."
+        ]
+      },
+      {
+        "tag": "jokes",
+        "patterns": [
+          "Tell me a joke",
+          "Make me laugh",
+          "I need a joke",
+          "Tell me something funny"
+        ],
+        "responses": [
+          "Why don’t skeletons fight each other? They don’t have the guts.",
+          "I told my wife she was drawing her eyebrows too high. She looked surprised."
+        ]
+      }
+    ]
+  }
+  
